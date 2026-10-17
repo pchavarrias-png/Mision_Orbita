@@ -1,5 +1,11 @@
 # Ejercicio 1 - Calculo de recursos de la mision
-
+# ============================================================
+# Archivo: ejercicio1.py
+# Curso: SOFT-01 Principios de Programacion 1 - Seccion SCP0
+# Integrantes: sury Arias, pablo Chavarria 
+# Fecha: 16/10/2026 Version: 1.0
+# Descripcion: calcula los recursos necesarios para una mision.
+# ============================================================
 # Constantes
 COMBUSTIBLE_POR_DIA = 8
 RESERVA_COMBUSTIBLE = 10

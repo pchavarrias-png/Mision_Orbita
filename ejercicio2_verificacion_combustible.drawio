@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="wzOR0IVBnF-xC9r1UaTc">
+    <mxGraphModel dx="1561" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qqDw6vcQKBVAr0Z9PhBU-18" edge="1" parent="1" source="qqDw6vcQKBVAr0Z9PhBU-8" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="qqDw6vcQKBVAr0Z9PhBU-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="320" as="sourcePoint" />
+            <mxPoint x="410" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqDw6vcQKBVAr0Z9PhBU-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Inicio&amp;nbsp;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="340" as="geometry" />
+        </mxCell>
+        <mxCell id="qqDw6vcQKBVAr0Z9PhBU-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Leer combustible_disponible, combustible_ida, combustible_regreso" vertex="1">
+          <mxGeometry height="60" width="210" x="275" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qqDw6vcQKBVAr0Z9PhBU-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="reserva_emergencia = 10&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="220" x="265" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="qqDw6vcQKBVAr0Z9PhBU-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="combustible_total_requerido = combustible_ida + combustible_regreso + reserva_emergencia&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="288.75" x="231.25" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qqDw6vcQKBVAr0Z9PhBU-6" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="combustible_adicional = combustible_disponible - combustible_total_requerido&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="300" x="240" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="qqDw6vcQKBVAr0Z9PhBU-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;roundedPerimeter=1;" value="Combustible_adicional &amp;lt; 10" vertex="1">
+          <mxGeometry height="150" width="237.5" x="265" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="qqDw6vcQKBVAr0Z9PhBU-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rounded=1;roundedPerimeter=1;" value="Mostrar &quot;Advertencia: El margen adicional de combustible es bajo&quot;" vertex="1">
+          <mxGeometry height="80" width="220" x="560" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="qqDw6vcQKBVAr0Z9PhBU-14" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rounded=1;roundedPerimeter=1;" value="Mostrar: &quot;Combustible de ida: &quot; , &quot;Combustible de regreso:&quot; , &quot;Combustible total requerido:&quot; , &quot;Combustible adicional disponible:&quot;" vertex="1">
+          <mxGeometry height="80" width="316.25" x="225.63" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="qqDw6vcQKBVAr0Z9PhBU-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;roundedPerimeter=1;" value="Fin" vertex="1">
+          <mxGeometry height="80" width="80" x="343.755" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="qqDw6vcQKBVAr0Z9PhBU-19" edge="1" parent="1" source="qqDw6vcQKBVAr0Z9PhBU-12" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="qqDw6vcQKBVAr0Z9PhBU-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="630" as="sourcePoint" />
+            <mxPoint x="480" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqDw6vcQKBVAr0Z9PhBU-20" edge="1" parent="1" source="qqDw6vcQKBVAr0Z9PhBU-8" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qqDw6vcQKBVAr0Z9PhBU-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="630" as="sourcePoint" />
+            <mxPoint x="480" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqDw6vcQKBVAr0Z9PhBU-21" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="qqDw6vcQKBVAr0Z9PhBU-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="720" />
+            </Array>
+            <mxPoint x="380" y="720" as="sourcePoint" />
+            <mxPoint x="480" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqDw6vcQKBVAr0Z9PhBU-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="si" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="qqDw6vcQKBVAr0Z9PhBU-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="no" vertex="1">
+          <mxGeometry height="30" width="60" x="330" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="qqDw6vcQKBVAr0Z9PhBU-24" edge="1" parent="1" source="qqDw6vcQKBVAr0Z9PhBU-16" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="qqDw6vcQKBVAr0Z9PhBU-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="910" as="sourcePoint" />
+            <mxPoint x="500" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

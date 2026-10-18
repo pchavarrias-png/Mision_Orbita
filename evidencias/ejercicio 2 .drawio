@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="WgLyg2Kai6Mgp1kcsC1C">
+    <mxGraphModel dx="936" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yCX7sG1Fg1SVAMLT_qTQ-9" edge="1" parent="1" source="yCX7sG1Fg1SVAMLT_qTQ-3" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="yCX7sG1Fg1SVAMLT_qTQ-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="431.5" y="590" as="sourcePoint" />
+            <mxPoint x="426.5" y="70.00000000000011" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yCX7sG1Fg1SVAMLT_qTQ-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="inicio&amp;nbsp;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="yCX7sG1Fg1SVAMLT_qTQ-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Leer nombre_misón, tripulación, días_viaje&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="200" x="329" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yCX7sG1Fg1SVAMLT_qTQ-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Calcular, oxigeno_requerido = dias_viaje x 5 + 10&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="440" x="200" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="yCX7sG1Fg1SVAMLT_qTQ-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Mostrar resuldados, combustible_ida, combustible_regreso, combustible_total, oxigeno_total, energía_requerida, provisiones_requeridas" vertex="1">
+          <mxGeometry height="60" width="262" x="289" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="yCX7sG1Fg1SVAMLT_qTQ-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Fin" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="NQy2aeUarZQO-TA_Vv_Z-1" edge="1" parent="1" source="yCX7sG1Fg1SVAMLT_qTQ-8" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="yCX7sG1Fg1SVAMLT_qTQ-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="970" as="sourcePoint" />
+            <mxPoint x="420" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yCX7sG1Fg1SVAMLT_qTQ-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Calcular, provisiones_requeridas = dias_viaje x tripulacion + 3&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="460" x="190" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="NQy2aeUarZQO-TA_Vv_Z-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="calcular, energia_requerida = dias_viaje x 5 + 10&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="450" x="200" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="NQy2aeUarZQO-TA_Vv_Z-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Calcular, combustible_total = combustible_ida + combustible_regreso&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="440" x="200" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="NQy2aeUarZQO-TA_Vv_Z-4" edge="1" parent="1" source="yCX7sG1Fg1SVAMLT_qTQ-6" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="yCX7sG1Fg1SVAMLT_qTQ-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="760" as="sourcePoint" />
+            <mxPoint x="420" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yCX7sG1Fg1SVAMLT_qTQ-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Calcular combustible_ida = dias_viaje x 8&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="460" x="190" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="NQy2aeUarZQO-TA_Vv_Z-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="60" width="440" x="200" y="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

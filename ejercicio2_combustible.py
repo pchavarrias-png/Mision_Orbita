@@ -17,12 +17,10 @@ combustible_disponible = int(input("Ingrese el combustible disponible: "))
 combustible_ida = int(input("Ingrese el combustible requerido para llegar al destino: "))
 combustible_regreso = int(input("Ingrese el combustible requerido para regresar: "))
 
-# Procesamiento de datos
-combustible_total_requerido = (
-    combustible_ida + combustible_regreso + RESERVA_EMERGENCIA
-)
-
+# calculo del combustible total requerido
+combustible_total_requerido = combustible_ida + combustible_regreso + RESERVA_EMERGENCIA
 combustible_adicional = combustible_disponible - combustible_total_requerido
+
 
 # Verificación del margen de combustible
 if combustible_adicional < LIMITE_MARGEN_BAJO:

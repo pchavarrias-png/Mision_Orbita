@@ -24,10 +24,8 @@ energia_requerida = int(input("Ingrese la energia requerida: "))
 provisiones_disponibles = int(input("Ingrese las provisiones disponibles: "))
 provisiones_requeridas = int(input("Ingrese las provisiones requeridas: "))
 
-# Procesamiento de datos
-combustible_total = (
-    combustible_ida + combustible_regreso + RESERVA_COMBUSTIBLE
-)
+# calculo del combustible total requerido  
+combustible_total = combustible_ida + combustible_regreso + RESERVA_COMBUSTIBLE
 
 # Verificacion de recursos
 combustible_suficiente = combustible_disponible >= combustible_total
